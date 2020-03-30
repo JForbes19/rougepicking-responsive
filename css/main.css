@@ -18,9 +18,10 @@ body {
 	max-width: 1200px;
 	margin: 0 auto;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+    
 }
 
 h1,
@@ -30,18 +31,20 @@ h4 {
 	color: black;
 	text-transform: uppercase;
 	font-weight: 700;
+    
 }
 h1 {
-	font-size: 30px;
+	font-size: 2em;
+    text-align: left;
 }
 h2 {
-    font-size: 24px;
+    font-size: 1.5em;
 }
 h3 {
-	font-size: 18px;
+	font-size: 1.2em;
 }
 h4 {
-	font-size: 12px;
+	font-size: 1em;
 }
 
 p {
@@ -53,18 +56,22 @@ p {
 /*The widths are in a percentage!*/
 header {
 	height: 10%;
+    width: 100%;
 	border-bottom: 3px solid #77a466;
 	margin: 0 auto;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 header h1 {
 	float: left;
 	margin: 0;
 	padding: 38px 0;
+    text-align: left;
+    justify-content: 
+    
 }
 header h1 span {
 	color: #77a466;
@@ -73,6 +80,7 @@ header h1 span {
 header nav {
 	float: right;
 	padding: 46px 0;
+    
 }
 header nav ul {
 	margin: 0;
@@ -88,6 +96,7 @@ header nav ul li {
 header nav ul li a{
 	text-decoration: none;
 	color:#77a466;
+    width: 100%;
 }
 
 /*The widths are in a percentage!*/
@@ -97,7 +106,7 @@ header nav ul li a{
 	clear: both;
     display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
 flex-wrap: wrap;
     width: 100%;
 }
